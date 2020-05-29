@@ -4,8 +4,8 @@ function fetchBooks() {
   .then(json =>{
     renderBooks(json));
     return json;
-  } 
-  
+  }
+
 }
 
 function renderBooks(json) {
